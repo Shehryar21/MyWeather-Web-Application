@@ -20,4 +20,4 @@ def index():
         }
         return render_template('result.html',weather=weather)
     
-    return render_template('index.html')
+    return render_template('weather.html')
